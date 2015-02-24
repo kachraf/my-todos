@@ -1,0 +1,7 @@
+simple_profile:
+    resource: "@SimpleProfileBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
