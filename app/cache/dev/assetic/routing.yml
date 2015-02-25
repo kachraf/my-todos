@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /var/www/todo/app/config/routing_dev.yml
+    resource: /projet/my-todos/app/config/routing_dev.yml

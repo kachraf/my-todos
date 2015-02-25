@@ -4,4 +4,25 @@
 
 <h2>welcome to my Todo's</h2>
 
-Hi {{ app.user.username }} !	
+Hi {{ app.user.username }} !
+
+
+<table border="1">
+    {% for todo in todos %}
+    <tr>
+
+            <td>{{ todo.name|e }}</td>
+            <td>{{ todo.description|e }}</td>
+            <td>{{ todo.date_todo|date('Y-m-d H:i:s') }}</td>
+            <td><a href="{{path('logout')}}">Delete</a></td>
+
+
+    </tr>
+    {% endfor %}
+</table>
+
+<div>
+    <a href="">Add Todo</a>
+</div>
+
+

@@ -33,8 +33,8 @@ class Todo implements  \Serializable
     private $date_todo;
 
     /**
-     * @ManyToOne(targetEntity="User", inversedBy="todos")
-     * @JoinColumn(name="user_id", referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="todos")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      **/
     private $user;
 
@@ -163,4 +163,14 @@ class Todo implements  \Serializable
 
 
 
+
+    /**
+     * Get user
+     *
+     * @return \Simple\ProfileBundle\Entity\User 
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
 }

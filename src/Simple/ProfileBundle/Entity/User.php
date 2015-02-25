@@ -46,7 +46,7 @@ class User implements UserInterface, \Serializable
 
     /**
      * @var Collection
-     * @OneToMany(targetEntity="Todo", mappedBy="user")
+     * @ORM\OneToMany(targetEntity="Todo", mappedBy="user")
      **/
     private $todos;
 
@@ -217,5 +217,28 @@ class User implements UserInterface, \Serializable
     public function getTodos()
     {
         return $this->todos;
+    }
+
+    /**
+     * Add todos
+     *
+     * @param \Simple\ProfileBundle\Entity\Todo $todos
+     * @return User
+     */
+    public function addTodo(\Simple\ProfileBundle\Entity\Todo $todos)
+    {
+        $this->todos[] = $todos;
+
+        return $this;
+    }
+
+    /**
+     * Remove todos
+     *
+     * @param \Simple\ProfileBundle\Entity\Todo $todos
+     */
+    public function removeTodo(\Simple\ProfileBundle\Entity\Todo $todos)
+    {
+        $this->todos->removeElement($todos);
     }
 }

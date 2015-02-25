@@ -33,6 +33,16 @@ class SecurityController extends Controller
 
     public function todoListAction()
     {
-      return $this->render('SimpleProfileBundle:Security:todolist.html.twig', array());
+        $user = $this->get('security.token_storage')->getToken()->getUser();
+        $id = $user->getId();
+
+        $todos = $this->getDoctrine()
+            ->getRepository('SimpleProfileBundle:Todo')
+            ->findByIdUser($id);
+        if (!$todos) {
+            throw $this->createNotFoundException('No todos found');
+        }
+
+      return $this->render('SimpleProfileBundle:Security:todolist.html.twig',  array( 'todos' => $todos));
     }
 }
