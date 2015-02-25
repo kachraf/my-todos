@@ -30,45 +30,60 @@ Hi ";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "user", array()), "username", array()), "html", null, true);
         echo " !
 
-
-<table border=\"1\">
-    ";
-        // line 11
-        $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["todos"]) ? $context["todos"] : $this->getContext($context, "todos")));
-        foreach ($context['_seq'] as $context["_key"] => $context["todo"]) {
+";
+        // line 9
+        if ( !twig_test_empty((isset($context["todos"]) ? $context["todos"] : $this->getContext($context, "todos")))) {
+            // line 10
+            echo "
+    <table border=\"1\">
+        ";
             // line 12
-            echo "    <tr>
+            $context['_parent'] = (array) $context;
+            $context['_seq'] = twig_ensure_traversable((isset($context["todos"]) ? $context["todos"] : $this->getContext($context, "todos")));
+            foreach ($context['_seq'] as $context["_key"] => $context["todo"]) {
+                // line 13
+                echo "            <tr>
 
-            <td>";
-            // line 14
-            echo twig_escape_filter($this->env, $this->getAttribute($context["todo"], "name", array()));
-            echo "</td>
-            <td>";
-            // line 15
-            echo twig_escape_filter($this->env, $this->getAttribute($context["todo"], "description", array()));
-            echo "</td>
-            <td>";
-            // line 16
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["todo"], "date_todo", array()), "Y-m-d H:i:s"), "html", null, true);
-            echo "</td>
-            <td><a href=\"";
-            // line 17
-            echo $this->env->getExtension('routing')->getPath("logout");
-            echo "\">Delete</a></td>
+                <td>";
+                // line 15
+                echo twig_escape_filter($this->env, $this->getAttribute($context["todo"], "name", array()));
+                echo "</td>
+                <td>";
+                // line 16
+                echo twig_escape_filter($this->env, $this->getAttribute($context["todo"], "description", array()));
+                echo "</td>
+                <td>";
+                // line 17
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["todo"], "date_todo", array()), "Y-m-d H:i:s"), "html", null, true);
+                echo "</td>
+                <td><a href=\"";
+                // line 18
+                echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("delete_todo", array("id" => $this->getAttribute($context["todo"], "id", array()))), "html", null, true);
+                echo "\">Delete</a></td>
 
 
-    </tr>
-    ";
+
+            </tr>
+        ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['todo'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 24
+            echo "    </table>
+";
+        } else {
+            // line 26
+            echo "    <h3> No todo's to show</h3>
+
+";
         }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['todo'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 22
-        echo "</table>
-
-<div>
-    <a href=\"\">Add Todo</a>
+        // line 29
+        echo "<div>
+    <a href=\"";
+        // line 30
+        echo $this->env->getExtension('routing')->getPath("add_todo");
+        echo "\">Add Todo</a>
 </div>
 
 
@@ -87,6 +102,6 @@ Hi ";
 
     public function getDebugInfo()
     {
-        return array (  68 => 22,  57 => 17,  53 => 16,  49 => 15,  45 => 14,  41 => 12,  37 => 11,  30 => 7,  22 => 2,  19 => 1,);
+        return array (  85 => 30,  82 => 29,  77 => 26,  73 => 24,  61 => 18,  57 => 17,  53 => 16,  49 => 15,  45 => 13,  41 => 12,  37 => 10,  35 => 9,  30 => 7,  22 => 2,  19 => 1,);
     }
 }

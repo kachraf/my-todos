@@ -3,6 +3,7 @@ namespace Simple\ProfileBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Security\Core\SecurityContext;
+use Symfony\Component\HttpFoundation\Request;
 
 class SecurityController extends Controller
 {
@@ -39,10 +40,30 @@ class SecurityController extends Controller
         $todos = $this->getDoctrine()
             ->getRepository('SimpleProfileBundle:Todo')
             ->findByIdUser($id);
-        if (!$todos) {
-            throw $this->createNotFoundException('No todos found');
-        }
 
-      return $this->render('SimpleProfileBundle:Security:todolist.html.twig',  array( 'todos' => $todos));
+        return $this->render('SimpleProfileBundle:Security:todolist.html.twig',  array( 'todos' => $todos));
     }
+
+
+    public function deleteTodoAction($id)
+    {
+        $queryResult = $this->getDoctrine()
+            ->getRepository('SimpleProfileBundle:Todo')
+            ->deleteById($id);
+
+        return $this->todoListAction();
+    }
+
+
+    public function addTodoAction(Request $request)
+    {
+
+        if ($request->getMethod() == 'POST') {
+           $formData = $request->request->all();
+
+
+    }
+
+    }
+
 }

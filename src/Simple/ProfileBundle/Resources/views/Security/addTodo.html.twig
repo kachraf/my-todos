@@ -1,0 +1,32 @@
+<div>
+    <a href="{{path('logout')}}">Logout</a>
+</div>
+
+<h2>Add a new Todo</h2>
+
+Hi {{ app.user.username }} !
+
+
+
+<table border="1">
+    <form name="addTodoForm" id="addTodoForm" method="POST" action="{{path('add_todo_action')}}">
+
+    <tr>
+        <td>Name</td><td><input type="text" name="name" id="name"/></td>
+    </tr>
+    <tr>
+        <td>Description</td><td><input type="text" name="description" id="description"/></td>
+    </tr>
+    <tr>
+        <td>Date</td><td><input type="datetime" name="date" id="date"/></td>
+    </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <input type="submit" name="submit" id="submit" value="submit"/>
+            </td>
+        </tr>
+    </form>
+</table>

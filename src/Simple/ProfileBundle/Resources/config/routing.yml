@@ -1,3 +1,16 @@
-simple_profile_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: SimpleProfileBundle:Default:index }
+delete_todo:
+    path:     /mytodos/delete/{id}
+    defaults: { _controller: SimpleProfileBundle:Security:deleteTodo }
+
+
+add_todo:
+    path:     /mytodos/addTodo
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: 'SimpleProfileBundle:Security:addTodo.html.twig'
+
+add_todo_action:
+    path:     /mytodos
+    defaults: { _controller: SimpleProfileBundle:Security:addTodo }
+    requirements:
+        _method:  POST

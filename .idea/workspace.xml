@@ -2,100 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee081ffe-0722-4c9c-a723-496ed93b8cf8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/01/f4/1cf401" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/03/ce/07ce03" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0c/09/c7090c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/11/ea/bbea11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/11/f7/bff711" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/16/0f/f70f16" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1a/cf/9bcf1a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/25/10/941025" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/27/ec/d0ec27" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/29/90/5a9029" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2d/c4/e7c42d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2e/15/6b152e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/33/74/f87433" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/34/2d/9d2d34" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3d/04/e2043d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/40/f0/63f040" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/40/f5/3bf540" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4f/ad/d4ad4f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/50/98/e49850" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/52/bd/35bd52" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/53/6e/7d6e53" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5f/e2/95e25f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/77/3f/e33f77" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/82/a8/7da882" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/91/70/a77091" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/94/cd/abcd94" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/96/5f/ec5f96" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/96/a3/16a396" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a7/12/3112a7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ad/85/b485ad" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c2/8b/3a8bc2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ca/26/f826ca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d5/6f/276fd5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/dc/f1/90f1dc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ee/30/3530ee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ee/32/3a32ee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f0/61/5461f0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f3/42/ae42f3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f4/86/d486f4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f5/e8/8de8f5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f6/0b/c50bf6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ff/36/d036ff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0a/40/16c52dae79f34167c5ab9eedbc9ba512c2d23bbafb8eb0c46978277a1dd1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/25/68/4e8b49ff636e009c03501e704e73d02db647ab9f2e51942b82795d3ff307.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/26/23/7465113d30f5352ff9f5e8ee909ef7d2318dd6a72c5c263387c94db3f12d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/32/00/1e37e79d5193a05c1b4e9f532012d01725e5b2d4adb1f0ef9a0c68e78b92.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/32/7e/21df928d0bbcf5522ac6c945e82ebcfefba9c8438c2b68f83689e96c1713.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3e/e1/aa5cf8b659a1bd2928374d2018e775b467ac630f1cd323e0c55c9044cf3e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/40/a0/7b54bf032e38e94e8760d7aa0ee03d26b82825aea2fb9f422e715b7590a8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/45/12/20b499250ec3a7d6c2b86b46238d187910b4a68436ae32fca642982a42e4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/47/6a/432409b871ba2d08c4ad0e77bbb7edadd0bc597466acfbd34f09038dea41.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/51/ea/fafa063ff60d7b9ec6f8721bc8f9fb025a79e951f508db9b06f807d2403a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/52/d0/b76e8f7f37774cb080ef779c5c2f6e4109eb5d4af4c2ab92ad5f2a420547.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/54/21/616ca401da0a54e2a2ab7b1017fa19b147e24b268553a218206243481059.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/56/7c/3d4cf52aeaa9122a1ed7d5e3396ad7a6b91e7e61ae8a5a810260138cbb52.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/a3/aa0d454829d2bf66c3f9b812fed5683573c41aa4acbd3792164e1fc0143f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5a/70/0bef6106b882f167bd1d193e52278776165410e1505f28e73af7ea9460db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/60/a8/7eef063694f0811e57dcc01bde0e3db7ca064f4baf4596b5cc010f80e350.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/68/92/c2db2ef033cb03ce9e9dc7667c4c9acd40da0a9f07d65f12d1d702d6a82c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/72/6f/7301d7c02d007b8b493b8659162dd8c4745202c00d93409605692ad0bf63.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/86/bb/fcd11e78c15da44f7c7215fdb79f524fa405d00d2ed9444ec2c99b40f8a8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/87/b3/fa7b0e6671b84747d6e069b037a35f9cd2a6a8ef7381f4328ce9099e3ddd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/90/d1/e712d664c999dc6faf9027f131e7cfdd5a00326fe96109f06dbd469911ca.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/94/1a/4e215f6c1846045a2d6fef82ee601562bed036dbc257a4a4a803b0fa6046.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9d/70/275a494849a9a1a6c6cf3f0a15f130c4136f76d29627c89a030b9745e804.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9f/18/2d720212afb3711d2618521d8790d43a1baf1ff8124d15b7dd6abfb44077.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a2/91/bb3db3505c59d9b3938804bfcb61aed279138a3c506c5bb7541351be9730.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a3/96/87731ba9af46997f5765286eafdc11f2ca6e9fb84c9bfae04fc5314f7728.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a7/dc/5ad04ed917ae68b92efef6b2c56e61a78e6efc6850c0a3b899b07cfd205f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/bd/b4/1b5609aae197bc519aacdb6d5b950ba9604468c88a427e1ea78e5fb00051.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/bf/bf/330c1399c6f2e13d8c2495b5ad779f8baecb41734ed62b200d13aae3f93a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d3/5a/a5780c55caed620af7e013c8d961e507d291913c5f008bdb9b7a9f65764b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e6/f3/00cac0ce75fe2808e0554ea15e029db17cfbac3375ba5299d34a08b51835.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e9/cb/e6fad8ea4d569d7626591ae0378e0275e4e644eec3a75b3f2f2c7c9f1f25.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/eb/ca/7f4aa37de42cde9d655d66ae163e58e99dea66325bd1158544c1257f93ac.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f6/c7/b403016e6541098b9d44221614859bbea8588cd5efb7de04d50fa266bc43.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-todos" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/DataFixtures/ORM/LoadUserData.php" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/DataFixtures/ORM/LoadUserData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/addTodo.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/TodoRepository.php" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/TodoRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/00/65/a66bebcfde1ba7198ffa353eac70ea8bf7eebe693732709c025acf7e4f06.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/00/65/a66bebcfde1ba7198ffa353eac70ea8bf7eebe693732709c025acf7e4f06.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/routing.yml" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig" afterPath="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my-todos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,7 +40,7 @@
       <file leaf-file-name="Todo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="22" selection-start="620" selection-end="629" vertical-scroll-proportion="-13.75" vertical-offset="150" max-vertical-offset="2730">
+            <state line="2" column="10" selection-start="17" selection-end="44" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="2730">
               <folding />
             </state>
           </provider>
@@ -136,31 +55,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todolist.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.4595186" vertical-offset="0" max-vertical-offset="914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TodoRepository.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/TodoRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="21" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-29.375" vertical-offset="0" max-vertical-offset="870">
+            <state line="46" column="0" selection-start="982" selection-end="982" vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.83588624" vertical-offset="211" max-vertical-offset="1125">
               <folding>
-                <marker date="1424858002569" expanded="true" signature="387:487" placeholder="SELECT t FRO..SimpleProfileBundle..." />
+                <element signature="e#50#107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="22" selection-start="338" selection-end="338" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTodo.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/addTodo.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="44" selection-start="167" selection-end="178" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todolist.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="20" selection-start="510" selection-end="510" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="585">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,9 +118,11 @@
         <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig" />
+        <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/addTodo.html.twig" />
+        <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/TodoRepository.php" />
         <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig" />
       </list>
     </option>
   </component>
@@ -356,6 +295,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-todos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-todos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProfileBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -461,6 +430,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
@@ -548,6 +522,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="31" selection-start="1131" selection-end="1131" vertical-scroll-proportion="-10.625" vertical-offset="525" max-vertical-offset="3720">
@@ -555,33 +543,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php">
+    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="795">
+        <state line="22" column="20" selection-start="510" selection-end="510" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/addTodo.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="167" selection-end="178" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="338" selection-end="338" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="17" selection-end="44" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="2730">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/TodoRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="21" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-29.375" vertical-offset="0" max-vertical-offset="870">
+        <state line="46" column="0" selection-start="982" selection-end="982" vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.83588624" vertical-offset="211" max-vertical-offset="1125">
           <folding>
-            <marker date="1424858002569" expanded="true" signature="387:487" placeholder="SELECT t FRO..SimpleProfileBundle..." />
+            <element signature="e#50#107#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Entity/Todo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="22" selection-start="620" selection-end="629" vertical-scroll-proportion="-13.75" vertical-offset="150" max-vertical-offset="2730">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple/ProfileBundle/Resources/views/Security/todolist.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.4595186" vertical-offset="0" max-vertical-offset="914">
-          <folding />
         </state>
       </provider>
     </entry>

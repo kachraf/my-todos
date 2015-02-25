@@ -127,9 +127,28 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // simple_profile_homepage
-        if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'simple_profile_homepage')), array (  '_controller' => 'SimpleProfileBundle:Default:index',));
+        if (0 === strpos($pathinfo, '/mytodos')) {
+            // delete_todo
+            if (0 === strpos($pathinfo, '/mytodos/delete') && preg_match('#^/mytodos/delete/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'delete_todo')), array (  '_controller' => 'Simple\\ProfileBundle\\Controller\\SecurityController::deleteTodoAction',));
+            }
+
+            // add_todo
+            if ($pathinfo === '/mytodos/addTodo') {
+                return array (  '_controller' => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController::templateAction',  'template' => 'SimpleProfileBundle:Security:addTodo.html.twig',  '_route' => 'add_todo',);
+            }
+
+            // add_todo_action
+            if ($pathinfo === '/mytodos') {
+                if ($this->context->getMethod() != 'POST') {
+                    $allow[] = 'POST';
+                    goto not_add_todo_action;
+                }
+
+                return array (  '_controller' => 'Simple\\ProfileBundle\\Controller\\SecurityController::addTodoAction',  '_route' => 'add_todo_action',);
+            }
+            not_add_todo_action:
+
         }
 
         // homepage

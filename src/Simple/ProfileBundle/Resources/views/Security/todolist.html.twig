@@ -6,23 +6,28 @@
 
 Hi {{ app.user.username }} !
 
+{% if todos is not empty %}
 
-<table border="1">
-    {% for todo in todos %}
-    <tr>
+    <table border="1">
+        {% for todo in todos %}
+            <tr>
 
-            <td>{{ todo.name|e }}</td>
-            <td>{{ todo.description|e }}</td>
-            <td>{{ todo.date_todo|date('Y-m-d H:i:s') }}</td>
-            <td><a href="{{path('logout')}}">Delete</a></td>
+                <td>{{ todo.name|e }}</td>
+                <td>{{ todo.description|e }}</td>
+                <td>{{ todo.date_todo|date('Y-m-d H:i:s') }}</td>
+                <td><a href="{{path('delete_todo', { 'id': todo.id })}}">Delete</a></td>
 
 
-    </tr>
-    {% endfor %}
-</table>
 
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <h3> No todo's to show</h3>
+
+{% endif %}
 <div>
-    <a href="">Add Todo</a>
+    <a href="{{path('add_todo')}}">Add Todo</a>
 </div>
 
 

@@ -13,22 +13,6 @@ use Doctrine\ORM\EntityRepository;
 class TodoRepository extends EntityRepository
 {
 
-    public function _findByIdUser($id)
-    {
-        $query = $this->getEntityManager()
-            ->createQuery('
-            SELECT t FROM SimpleProfileBundle:Todo t
-            LEFT JOIN t.user u
-            WHERE u.id = :id'
-            )->setParameter('id', $id);
-
-        try {
-            return $query->getSingleResult();
-        } catch (\Doctrine\ORM\NoResultException $e) {
-            return null;
-        }
-    }
-
     public function findByIdUser($id)
     {
         $todos = $this->createQueryBuilder('t')
@@ -47,6 +31,21 @@ class TodoRepository extends EntityRepository
 
         return $todos;
     }
+
+    public function deleteById($id){
+
+        return $this->createQueryBuilder('t')
+            ->delete()
+            ->where('t.id = :id')
+            ->setParameter('id', $id)
+            ->distinct()
+            ->getQuery()
+            ->getResult();
+
+    }
+
+
+
 
 
 }
